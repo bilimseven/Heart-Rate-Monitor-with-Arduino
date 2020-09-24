@@ -37,3 +37,4 @@ Determining the Threshold Value The next step is to set the threshold value acco
 
 Now that we have determined our threshold value, we measure the pulse value with our sequence sensor and print it on our Nokia 5110 screen. For this, we must first add our 5110 screen to our circuit. You can see how this is done in the circuit diagram below.
 
+![5110](https://user-images.githubusercontent.com/71852248/94204870-c0d11c00-feca-11ea-8237-614ea6b7cd87.png)
