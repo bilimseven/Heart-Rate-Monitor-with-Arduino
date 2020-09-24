@@ -3,10 +3,12 @@
 Hello everyone, in this article, we will learn to read the pulse data using the Pulse pulse sensor, one of the medical sensors, and display the result on the Nokia 5110 screen. In this way, we will have produced our own heart rate monitor.
 
 Materials you need for the project described in this article: 
+
 *Arduino UNO 
 *Pulse Pulse Meter 
 *Nokia 5110 Screen 
 *Jumper Cables
+
 
 ![WhatsApp-Image-2019-08-26-at-14 39 41-1280x720](https://user-images.githubusercontent.com/71852248/94204158-6a171280-fec9-11ea-8099-0754ee2b3d53.jpg)
 
@@ -19,3 +21,7 @@ Heart Rate Monitor Project
 Our project will consist of two parts. In the first part, we will make the connection between Pulse sensor and Arduino. After successfully completing this part, we will reflect the pulse rate we obtained to our 5110 screen. Let's start with the first part.
 
 We make the sensor connections like this:
+
+![pulse2-696x491](https://user-images.githubusercontent.com/71852248/94204401-da259880-fec9-11ea-9b70-c7fd2ccc3693.png)
+
+It's time to write the code for the Arduino. After opening the Arduino IDE, the first thing we need to do to use our sensor is to install the necessary library on our computer. To do this, we need to click on the "Tools" option from the options above and click on the "edit libraries" option from there. After this process, the tab called "Library Manager" will open. To install the necessary library from here, we need to write "pulse sensor playground" in the search section, select the latest version from the "select version" section and press the "Install" button.
