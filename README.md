@@ -32,3 +32,8 @@ Now that we have successfully installed the required library, we can move on to 
 ![cmon](https://user-images.githubusercontent.com/71852248/94204619-3d172f80-feca-11ea-8e28-e41eb35046e5.jpg)
 
 Determining the Threshold Value The next step is to set the threshold value according to the graph on your screen. For this, we have to determine such a value that the rises on the chart should rise above this value, but the parts other than the rises should also stay below this value. For example, in the image below, 520 is a suitable threshold value. But you should determine your own value according to the graph on your screen because it may differ.
+
+[cmon-1](https://user-images.githubusercontent.com/71852248/94204739-7f407100-feca-11ea-8cc2-52df00f520a2.jpg)
+
+Now that we have determined our threshold value, we measure the pulse value with our sequence sensor and print it on our Nokia 5110 screen. For this, we must first add our 5110 screen to our circuit. You can see how this is done in the circuit diagram below.
+
